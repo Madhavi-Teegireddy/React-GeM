@@ -6,6 +6,7 @@ const Cards = (props) => {
     console.log(props)
 
   return (
+    <>
     <div>
         <img src={url} style={{width:"100px",height:"100px"}}/>
         <h1>{id}</h1>
@@ -13,6 +14,7 @@ const Cards = (props) => {
         <p>{thumbnailUrl}</p>
         <h3>Rate: {rate}</h3>
     </div>
+    </>
   )
 }
 

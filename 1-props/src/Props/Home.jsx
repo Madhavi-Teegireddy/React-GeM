@@ -11,12 +11,14 @@ const Home = () => {
   }
 
   return (
-    <div>
-        <h1>Hi props</h1>
-        <button onClick={handleTop}>Top Rated Restaurants</button>
+    <>
+    <h1>Hi props</h1>
+     <button onClick={handleTop}>Top Rated Restaurants</button>
+
+    <div  style={{display:"grid", gridTemplateColumns:"repeat(3,1fr)", gap:"30px"}}>  
 
       {topRatedRestaurants.map((res) => (
-        <Cards
+        <Cards 
           key={res.id}
           id={res.id}
           title={res.title}
@@ -26,6 +28,7 @@ const Home = () => {
         />
       ))}
     </div>
+    </>
   )
 }
 

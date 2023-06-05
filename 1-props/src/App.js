@@ -1,12 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
-// import Restaurant from './AccessDataDirectly/Restaurant';
-import Home from './Props/Home';
+import FetchApi from './Fetch/FetchApi';
 
 function App() {
   return (
-    <div className="App">
-      <Home/>
+    <div className="App" >
+      <FetchApi/>
       </div>
   );
 }

@@ -1,0 +1,15 @@
+
+.head {
+    width:92%;
+    margin:auto;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.head-1 {
+    background-color:lightgray;
+    width:220px;
+    height:260px;
+}

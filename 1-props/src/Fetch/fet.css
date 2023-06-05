@@ -1,0 +1,28 @@
+.img{
+    width:200px;
+    height:250px;
+    margin-top: 20px;
+}
+
+.card{
+    width:92%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap:30px; 
+    margin-top: 20px;
+}
+
+.card-1{
+    background-color:lightgray;
+}
+
+.ser{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.no-results{
+    color:red;
+}
