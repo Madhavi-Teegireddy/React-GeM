@@ -1,0 +1,28 @@
+.img {
+    width: 200px;
+    height: 250px;
+    margin-top: 20px;
+}
+
+.cardi {
+    width: 92%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.cardi-1 {
+    background-color: lightsalmon;
+}
+
+.seri {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.no-resultsi {
+    color: red;
+}

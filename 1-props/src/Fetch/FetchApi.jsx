@@ -9,7 +9,7 @@ const FetchApi = () => {
 
   const handleTop = () => {
    const filtered = restaurantData.filter((res) => res.rating.rate >=  4);
-  setRestaurantData(filtered)
+  setFilteredData(filtered)
   }
 
  useEffect(() => {

@@ -13,3 +13,25 @@
     width:220px;
     height:260px;
 }
+
+.head-card {
+    width: 40%;
+    margin: auto;
+    display: flex;
+    margin-top: 20px;
+}
+
+.head-card1 {
+    background-color: lightgray;
+    width: 600px;
+    height: 260px;
+}
+
+.tit{
+    width:50%;
+    display: flex;
+    margin: auto;
+    background-color: lightgray;
+    height: 50px;
+    margin-top: 20px;
+}

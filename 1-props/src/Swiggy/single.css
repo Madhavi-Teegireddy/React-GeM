@@ -1,0 +1,12 @@
+.sig{
+    width:70%;
+    margin: auto;
+    height:auto;
+    margin-top: 30px;
+    border:2px solid navy;
+}
+
+.sig img{
+    width: 200px;
+    height:250px;
+}
