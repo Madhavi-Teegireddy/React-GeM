@@ -12,7 +12,7 @@ const Home = () => {
 
   return (
     <>
-    <h1>Hi props</h1>
+    <h1>props</h1>
      <button onClick={handleTop}>Top Rated Restaurants</button>
 
     <div  style={{display:"grid", gridTemplateColumns:"repeat(3,1fr)", gap:"30px"}}>  
