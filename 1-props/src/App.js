@@ -16,7 +16,6 @@ function App() {
       <AllRoutes/> */}
       {/* <ExampleUse/> */}
       {/* <ExampleForm/> */}
-      {/* <ExampleProps/> */}
       <ExapleParent/>
       {/* <Home/> */}
       </div>
