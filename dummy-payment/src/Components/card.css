@@ -1,0 +1,44 @@
+
+  .cvv-input {
+    position: relative;
+    perspective: 1000px;
+}
+
+.cvv-input input {
+    transform-style: preserve-3d;
+    backface-visibility: hidden;
+    transition: transform 0.5s;
+}
+
+.cvv-input.flipped input {
+    transform: rotateY(180deg);
+}
+
+
+.cvv-input {
+    position: relative;
+    perspective: 1000px;
+}
+
+.cvv-input input {
+    transform-style: preserve-3d;
+    backface-visibility: hidden;
+    transition: transform 0.5s;
+}
+
+.cvv-input.flipped input {
+    transform: rotateY(180deg);
+}
+
+.cvv-display {
+    position: relative;
+    perspective: 1000px;
+    transform-style: preserve-3d;
+    transition: transform 0.5s;
+}
+
+.cvv-display.flipped {
+    background-color: white;
+    transform: rotateY(180deg);
+}
+
